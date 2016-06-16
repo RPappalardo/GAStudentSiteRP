@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Updates | Get Certified!</title>
+  <link rel="stylesheet" type="text/css" href="css/headerfooter.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="stylesheet" type="text/css" href="css/update.css" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+</head>
+
+  <body class="white darken-4">
+    <!-- navbar -->
+    <nav class="amber" role="navigation">
+      <div class="nav-wrapper container">
+      </div>
+    </nav>
+    <br>
+    <br>
+
+    <!-- body -->
+    <container>
+      <!-- Title -->
+      <div class="section no-pad-bot" id="index-banner">
+          <br><br>
+          <div class="row center">
+            <center>
+              <img style="max-width: 60vw;" class="logo" src="img/Logo_with_measure_what_matters-01.png" alt="Google Analytics Academy">
+            </center>
+          </div>
+      </div>
+
+    <!-- Body -->
+    <section>
+      <div class="descriptioncontainer">
+
+           <span class="header">June 14th, 2016</span>
+           <span class="body">Congratulations and welcome to the first Google Analytics Class at the Idea Center!
+           This resource website is your go to for class forms, notes, and general information that will aid you in
+           obtaining your certification in Google Analytics. To test what you've learned so far from the first lecture, there
+           is a form to fill out located on the resource site home page under "GA Surveys". I will conclude below with 
+           some of the questions posed by various students during lecture.
+           <br><br>
+           <b>Is Google Analytics Case Sensitive?: </b>
+           Google Analytics is case-sensitive; it is important to specify casings to avoid mutiple sources of data from
+           the same user.<br><br>
+           <b>Let's say you create a filter for a folder and want to monitor the trafic going through that folder. If a
+           conversion happens outside of that folder, will it still track that conversion?: </b>
+           You have to create a seperate filter to include things in that folder. If you exclude it, you will not see
+           that conversion. You will have to set up uninclusion for that folder.
+         </span>
+       </div>
+
+      </section>
+
+
+
+
+  </container>
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  <div id="spam" class="footer white-text" ></div>
+
+  <!--Javascript scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="../../bin/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script>
+    function randomtext() {
+      var randomtxt = [
+        'Remember, you can do it!',
+        'Watch the Google Academy lectures before class for extra reinforcement',
+        'Do not forget to review the lecture notes ',
+        'Keep updated on any forms and activities'
+      ];
+      return randomtxt[Math.floor((Math.random() * 3.99))];
+    }
+    document.getElementById("spam").innerHTML = randomtext();
+  </script>
+<br>
+  </body>
+</html>
