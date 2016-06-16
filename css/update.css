@@ -1,0 +1,64 @@
+@font-face {
+    font-family: Avenir-Book;
+    src: url(Avenir-Book.ttf);
+}
+
+@font-face {
+    font-family: Avenir-Heavy;
+    src: url(Avenir-Heavy.ttf);
+}
+
+@font-face {
+    font-family: Avenir-Light;
+    src: url(Avenir-Light.ttf);
+}
+
+@font-face {
+    font-family: Avenir-Black;
+    src: url(Avenir-Black.ttf);
+}
+section span {
+    display: block;
+    font-size: 20px;
+    font-family: Avenir-Light;
+}
+
+.centertext {
+    text-align: center;
+}
+
+span.header {
+    color: rgb(77, 77, 77);
+    text-align: center;
+    font-size: 40px;
+    font-family: Avenir-Heavy;
+}
+html,
+body {
+    overflow-x: hidden !important;
+    max-width: 100% !important;
+    position: relative;
+}
+body {
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+}
+section {
+    background-color: white ;
+    width: 100%;
+    max-width: 100%;
+}
+section .descriptioncontainer {
+    max-width: 700px;
+    min-height: 450px;
+    padding: 0px 20px;
+    margin: 80px auto 120px auto;
+    position: relative;
+    z-index: 5;
+}
+
+
+section .descriptioncontainer span {
+    margin: 40px auto;
+}
