@@ -6,20 +6,23 @@
  * Made By MaterializeCSS.com
  */
 
+ /*Dylan CSS*/
+
+
+/*Rachel CSS*/
+.obr {
+    display:block;
+    margin-top:-15px;
+}
+section {
+  font-size: 160%;
+  font-family: Avenir-Light;
+}
+
+/*Materialize CSS*/
 .icon-block {
   padding: 0 15px;
 }
 .icon-block .material-icons {
 	font-size: inherit;
-}
-.obr
-{
-    display:block;
-    margin-top:-15px;
-}
-section
-{
-  font-size: 160%;
-  font-family: Avenir-Light;
-
 }
